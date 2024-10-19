@@ -33,7 +33,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
       <TitleTextProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="uiux-2024-10-15">
           <CssBaseline />
           <TopBar />
 
